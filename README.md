@@ -16,9 +16,13 @@ To be able to build on a RHEL (or derivative) system:
 
 	sudo dnf install qt6-qtbase-devel mpv-devel taglib-devel mesa-libGL-devel qt6-qtdeclarative-devel qt6-qtbase-mysql qt6-qttools-devel qt6-qttranslations
 
-Clone from Github:
+Clone from original Github repo (for Debian-based):
 
     git clone --recursive https://github.com/flaviotordini/musique.git
+
+Clone from my Github repo for RHEL compatibility:
+
+    git clone --recursive https://github.com/Goddv/musique.git
 
 Compiling:
 
