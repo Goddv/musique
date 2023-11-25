@@ -2,6 +2,9 @@
 <img src="https://flavio.tordini.org/files/products/musique.png">
 </p>
 
+# DISCLAIMER
+I`m a new to developing and coding, I don't want violate any licenses or steal somebody's work, just made some changes to make it build on RHEL-based systems because I like this player. If you have any suggestions/questions, please, write me an email: akagoddv@gmail.com.
+
 # Musique
 Musique is a music player built for speed, simplicity and style. It is written in C++ using the Qt framework. Contributing is welcome, especially in the Linux desktop integration area.
 
