@@ -235,7 +235,7 @@ unix:!mac {
     icon512.path = $$DATADIR/icons/hicolor/512x512/apps
     icon512.files += data/512x512/$${APP_UNIX_NAME}.png
 }
-mac|win32|contains(DEFINES, APP_UBUNTU):include(local/local.pri)
+mac|win32|contains(DEFINES, APP_RHEL):include(local/local.pri)
 
 message(QT: $$QT)
 message(CONFIG: $$CONFIG)

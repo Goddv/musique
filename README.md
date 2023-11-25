@@ -12,9 +12,9 @@ Just register and apply for a language team. Please don't request translation me
 ## Build instructions
 To compile Musique you need at least Qt 6.0. The following Qt modules are needed: core, gui, widgets, network, sql (using the Sqlite plugin), declarative, dbus. You also need TagLib: http://taglib.github.io and MPV >= 0.29.0: https://mpv.io/
 
-To be able to build on a Debian (or derivative) system:
+To be able to build on a RHEL (or derivative) system:
 
-	sudo apt install build-essential libgl-dev qt6-base-dev-tools qmake6 qt6-declarative-dev libmpv-dev libtag1-dev libqt6sql6-sqlite qt6-l10n-tools
+	sudo dnf install qt6-qtbase-devel mpv-devel taglib-devel mesa-libGL-devel qt6-qtdeclarative-devel qt6-qtbase-mysql qt6-qttools-devel qt6-qttranslations
 
 Clone from Github:
 
@@ -22,9 +22,9 @@ Clone from Github:
 
 Compiling:
 
-    qmake && make
+    qmake6 && make
 
-On Debian, qmake has been renamed to qmake6 for Qt 6.
+On Fedora, qmake has been renamed to qmake6 for Qt 6.
 
 Running:
 
