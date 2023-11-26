@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 %define name musique
 %define version 1.12
-%define release 3
+%define release 0
 %define buildroot %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 Summary: A Music Player
@@ -54,4 +54,4 @@ rm -rf %{buildroot}
 /usr/local/share/*
 
 %changelog
-- Initial RPM package release V3
+- Generic SPEC file
